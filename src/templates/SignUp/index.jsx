@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { Link, useNavigate } from "react-router-dom";
 import api from "../../services/api";
 import { useState } from "react";
-import logo from "./../../assets/imgs/logoFlower.png";
 
 export default function Signup() {
   const navigate = useNavigate();
