@@ -16,7 +16,7 @@ function About(){
                 <p>Sobre a academia - {textAbout}</p>
               </DivPerson>
               <DivPlace>
-                <p>all about the place, the history and the job - {textPlace}</p>
+                <p>Sobre a academia - {textPlace}</p>
               </DivPlace>
             </DivInfo>
             <a href="https://www.instagram.com/matchfit.gracas/" target="_blank" rel="noreferrer">
