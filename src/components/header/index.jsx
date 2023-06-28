@@ -62,12 +62,21 @@ function Header() {
                 <stylized.HomeIc />
                 <h1>Home</h1>
               </Link>
+              <Link to={"/gallery"}>
+                <stylized.GalleryIc />
+                <h1>Galeria</h1>
+              </Link>
               <Link to={"/schedule"}>
                 <stylized.ScheduleIc />
                 <h1>Agendamento</h1>
               </Link>
+              <Link to={"/about"}>
+                <stylized.AboutIc />
+                <h1>Sobre</h1>
+              </Link>
               {logged ? (
                 <Link to={`/budget/user/${id}`}>
+                  <stylized.HistoricIc />
                   <h1>Histórico</h1>
                 </Link>
               ) : (

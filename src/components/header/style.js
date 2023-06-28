@@ -185,6 +185,24 @@ export const ScheduleIc = styled(MdOutlineMoreTime)`
   cursor: pointer;
 `;
 
+export const AboutIc = styled(MdEmojiPeople)`
+  position: absolute;
+  top: 206px;
+  left: 40px;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+`;
+
+export const HistoricIc = styled(AiFillSchedule)`
+  position: absolute;
+  top: 263px;
+  left: 41px;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+`;
+
 export const More = styled(MdOutlineExpandMore)`
   position: absolute;
   top: 8px;

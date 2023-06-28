@@ -6,9 +6,9 @@ import Home from "../templates/Home";
 import Signin from "../templates/SignIn";
 import Signup from "../templates/SignUp";
 import Schedule from "../templates/Schedule";
-// import Gallery from "../templates/Gallery";
-// import About from "../templates/About";
-// import Historic from "../templates/Historic";
+import Gallery from "../templates/Gallery";
+import About from "../templates/About";
+import Historic from "../templates/Historic";
 
 function App() {
   return (
@@ -21,6 +21,9 @@ function App() {
               <Route path="/signin" element={<Signin />} />
               <Route path="/signup" element={<Signup />} />
               <Route path="/schedule" element={<Schedule />} />
+              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/budget/user/:id" element={<Historic />} />
             </Routes>
           </BrowserRouter>
         </FileProvider>
